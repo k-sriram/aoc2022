@@ -27,3 +27,8 @@ repos:
     rev: 6.0.0
     hooks:
     -   id: flake8
+-   repo: https://github.com/LiquidFun/aoc_tiles
+    rev: 0.6.2
+    hooks:
+    -   id: aoc-tiles
+        args: [--overwrite-year=2022]
